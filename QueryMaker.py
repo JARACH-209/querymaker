@@ -2,7 +2,7 @@
 #This query maker works only on csv text in a .txt file
 #use at your own risk
 def sqlquery():
-    name = input("Enter the file name \n")
+    name = input()
     file = open(name,'r')
     fout = open("OUT_"+name,'w')
     query = ""
